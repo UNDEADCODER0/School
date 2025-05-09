@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Mobile Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Lobster&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/26c4e71b1c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./stylesheet.css">
+
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+    <img src="./image/logo.jfif" alt="Logo" class="logo-img">
+    </div>
+    <div class="nav-links">
+        <ul class="nav" id="navlinks">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+
+        </ul>
+        <div class="hamburger" id="hamburger" > 
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+    </div>
+  </header>
+  <section class="intro">
+    <h1 id="typed-text"></h1>
+    <p>Aspiring Web developer | SEE Graduate</p>
+    <a href="#project"><button>See My Work</button></a>
+  </section>
+  <section class="abm">
+    <div class="about-me">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <p>Hello! I’m a web developer with a passion for creating innovative and user-friendly websites. I love
+          exploring new technologies and trends in the technical world.
+          In my free time, I enjoy working on personal projects, learning new programming languages, and contributing to
+          open-source communities.
+          My goal is to build responsive and accessible web applications that provide a seamless user experience across
+          all devices.
+          Feel free to connect with me on social media to see my latest projects and updates!</p>
+        <img src="./image/pfp.png" alt="my imge" class="profile-image">
+
+      </div>
+
+    </div>
+  </section>
+  <section class="service">
+   <div class="My-service">
+    <h1>My Services</h1>
+    <div class="service-container" id="service-container"></div>
+   </div>
+  </section>
+  <section class="projects">
+    <div class="MY-Project" id="project">
+      <h1>My Projects</h1>
+      <div class="project-container" id="project-container"></div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <p>Have questions or feedback? We’d love to hear from you!</p>
+      <form class="contact-form" action="#" method="post">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <textarea id="message" rows="4" placeholder="Write your message here" required></textarea>
+        <input type="submit" value="Submit" class="submit-btn">
+      </form>
+      <p class="form-footer">Thank you for visiting our website!</p>
+    </div>
+  </section>
+  <div class="home">
+    <div class="web-intro">
+      <div class="intro-text">
+        <h1>Welcome to Our Website</h1>
+        <p>Explore the latest mobile technology!</p>
+        <p>Stay up-to-date with trends and new features in the mobile world.</p>
+        <p>We’re excited to have you here!</p>
+      </div>
+      <div class="device">
+        <img src="./image/mobile.jpg" alt="Samsung S21 Ultra" class="mobile-image">
+        <div class="content">
+          <h2>Samsung S21 Ultra</h2>
+          <p>
+            The Samsung Galaxy S21 Ultra is a high-end smartphone that features a stunning 6.8-inch Dynamic AMOLED
+            display, a powerful Exynos 2100 processor, and an impressive camera system with a 108MP main sensor. It also
+            supports 5G connectivity and comes with up to 16GB of RAM and 512GB of storage.
+            The device is known for its premium build quality, long-lasting battery life, and advanced features such as
+            S Pen support and 120Hz refresh rate. The S21 Ultra is designed for users who demand the best in
+            performance, photography, and multimedia experiences.
+          </p>
+          <button class="btn" onclick="window.location.href='https://www.samsung.com/in/'">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="review">
+    <div class="review-container">
+      <h1>What Our Users Say</h1>
+      <div class="review-card" id="review-card">
+        <div class="review-item">
+            <img src="./image/r-pfp1.webp" alt="pfp1" class="review-pfp">
+          <h3>person1</h3>
+          <p>"This website is amazing! I found exactly what I was looking for."</p>
+        </div>
+        <div class="review-item">
+            <img src="./image/r-pfp2.webp" alt="pfp2" class="review-pfp">
+          <h3>person2</h3>
+          <p>"Great user experience and easy navigation. Highly recommend!"</p>
+        </div>
+        <div class="review-item">
+            <img src="./image/r-pfp3.webp" alt="pfp3" class="review-pfp">
+          <h3>person3</h3>
+          <p>"I love the design and layout of this site. Very informative!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="end">
+    <footer class="footer">
+      <p>&copy; 2025 Mobile Website. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      </div>
+    </footer>
+  </section>
+  
+
+  <script src="script.js"></script> 
+</body>
+
+</html>
