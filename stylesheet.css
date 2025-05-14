@@ -157,6 +157,7 @@ body {
   transition: all 0.3s ease;
 
 }
+/* end of navbar  */
 
 
 /* home/mobile description section */
@@ -242,16 +243,18 @@ body {
 
 }
 
+/* end of home/mobile description section */
+
 /* service-section */
 
 .My-service{
 
   padding: 2rem;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   text-align: center;
   align-items: center;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
 
 }
 
@@ -300,12 +303,13 @@ body {
   transition: background 0.3s ease;
 }
 
+/* end of service-section  */
 
     /* project-section */
 
 .MY-Project {
 
-  background-color: #dceefc;
+  /* background-color: #dceefc; */
   padding: 2rem;
   text-align: center;
 
@@ -371,6 +375,8 @@ body {
   color: #555;
 
 }
+
+/* end of project-section */ 
 
 
     /* contact-sextion */
@@ -449,6 +455,7 @@ body {
 
 }
 
+/* end of contact-section  */ 
 
 /* footer-section  */
 
@@ -480,12 +487,14 @@ body {
 
 }
 
+/* end of footer-section   */
+
 /* aboutme-section  */
 
 .about-me {
 
   padding: 2rem;
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
   text-align: center;
 
 }
@@ -534,6 +543,7 @@ body {
   padding: 1rem;
 
 }
+/* end of aboutme-section   */
 
 /* intro-section  */
 
@@ -587,63 +597,90 @@ body {
 background-color: #16a085;
 
 }
+.intro button:focus {
+
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(26, 188, 156, 0.5);
+
+}
+/* end of intro-section  */
 
 
 /* review-section  */
+.review {
+  /* background-color: #f9f9f9; */
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .review-container {
-    padding: 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
-    margin: 2rem auto;
-  }
-  
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .review-container h1 {
-    margin-bottom: 1rem;
-    color: #0d47a1;
-    font-size: 2rem;
-    text-shadow: #426caa 5px 5px 5px;
-  }
+.review-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
 
 .review-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    padding: 2rem;
-  }
-  
-  .review-item {
-    background-color: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    width: 300px;
-    transition: all 0.3s ease;
-    text-align: center;
-  }
-  
-  .review-item:hover {
-    transform: translateY(-10px);
-    background-color: #dceefc;
-  }
-  
-  .review-pfp {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  transition: transform  ease;
+  transition: background  ease;
+  transition-duration: 0.7s;
+
+}
+
+.review-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  background-color: #e3f2fd;
+}
+
+.review-pfp {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #0d47a1;
+}
+
+.review-item h3 {
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.review-item p {
+  font-style: italic;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .review-card {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .review-item h3 {
-    margin: 0.5rem 0;
-    color: #0d47a1;
-    font-size: 1.5rem;
+  .review-item {
+    width: 90%;
+    margin-bottom: 20px;
   }
-  
+}
+/* end of review-section  */
+
