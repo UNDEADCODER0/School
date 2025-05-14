@@ -2,10 +2,10 @@ const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navlinks');
 
 hamburger.addEventListener('click',()=>{
-  navLinks.classList.toggle('actmmmmmmmmmmmmmmmive');
+  navLinks.classList.toggle('active');
 });
 
-const text="Hi, I am Mr.NJT";
+const text="Hi, I am Mr.K";
 const typetext=document.getElementById("typed-text");
 let index=0;
 const speed=150;

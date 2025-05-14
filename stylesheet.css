@@ -550,12 +550,12 @@ body {
 .intro{
 
   align-items: center;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
   text-align: center;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  background-color: #e3f2fd;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); */
+  /* background-color: #e3f2fd; */
   position: relative;
   top: 30px;
   margin-bottom: 60px;
